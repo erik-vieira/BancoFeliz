@@ -19,7 +19,7 @@
         ::saldo =+ valor
     RETURN self
 
-    METHOD Retirar() CLASS BancoFeliz
+    METHOD Retirar(valor) CLASS BancoFeliz
         IF ::saldo >= valor
             ::saldo -= valor
             RETURN .T.
@@ -30,4 +30,3 @@
 
     METHOD VerSaldo() CLASS BancoFeliz
     RETURN ::saldo
-    

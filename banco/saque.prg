@@ -7,8 +7,8 @@ FUNCTION saque
 
     oConta:Retirar(vSaque)
     
-    ? "O valor sacado foi de R$", vSaque
-    ? "Saldo atual na conta: R$", oConta:VerSaldo()
+    
     READ
 
-    principal()
+    ? "O valor sacado foi de R$", vSaque
+    ? "Saldo atual na conta: R$", oConta:VerSaldo()
